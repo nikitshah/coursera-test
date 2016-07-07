@@ -1,0 +1,102 @@
+h1{
+	background-color:gold;
+	color: black;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: serif;
+	text-align: center;
+	padding: 10px;
+	border:2px solid black;
+	margin: 30px;
+	overflow: auto;
+}
+a{
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+a:hover{
+
+	color:red;
+}
+a:active{
+	color: green
+}
+.nav ul{
+	border:4px solid black;
+	width:200px;
+	height:100px;
+	overflow: auto;
+}
+.nav h2{
+	color:black;
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-image:url("photo2.jpg"); 
+}
+#section1{
+	
+
+}
+.section1 li{
+	font-size: 20px;
+	font-weight:bold;
+		
+}
+h2{
+	margin-top:10px;
+	background-color: orange;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+footer{
+	font-weight:bold;
+}
+footer p:nth-child(2){
+	font-size: 10px;
+}
+p{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	marker-end: 2px;
+}
+ .colored li:hover{
+	color: purple;
+}
+ul{
+	/*border: 1px solid black;*/
+	margin-top: 2px;
+	margin-bottom: 10px;
+}
+.section1, .colored, #section5 {
+	
+	width:50%;
+	overflow:auto;
+}
+.colored{
+
+	position:relative;
+	bottom:221px;
+	left:50%;
+	height:225px;
+}
+#section5{
+	position:relative;
+	bottom:225px;
+}
+.colored ul{
+	width:50%;
+}
+.colored ul:nth-child(2){
+	float: right;
+}
+.main a{
+	animation-
+	animation-duration: 15s;
+}
